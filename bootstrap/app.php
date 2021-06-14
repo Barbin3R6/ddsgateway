@@ -33,6 +33,7 @@ $app->withEloquent();
 
 $app->configure('services'); //new
 $app->configure('auth');
+$app->configure('database');
 
 /*
 |--------------------------------------------------------------------------
